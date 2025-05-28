@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color:#34542C ;
+    text-align: center;
+    /* background-image: url(pole_ultimate.png); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: cover;
+
+
+}
+.container{
+    height: 70vh;
+     display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.game{
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cell {
+    height: 18vh;
+    width:  18vh;
+    margin: 1vmin;
+    border-radius: 1vmin;
+    border: none;
+    box-shadow: 0 0 1rem black(0,0,0,0.3);
+    font-size: 5rem;
+    color: #AE5264;
+    background-color:#E19B8B ;
+}
+#reset{
+    color: #34542C;
+    font-size: 1rem;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 1rem;
+    border: none;
+    background-color:#EC849A ;
+}
+#newgm{
+    color: #34542C;
+    font-size: 0.65rem;
+    height: 3vh;
+    width: 20vw;
+    border-radius: 1rem;
+    border: none;
+    background-color:#EC849A ;
+    margin: 1rem;
+}
+#msg{
+    color: yellowgreen;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.msg-cont{
+    margin: 1rem;
+}
+.hide{
+    display: none;
+}
